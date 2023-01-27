@@ -20,8 +20,10 @@ function App() {
           <a href="maps.google.com"><img src='/vectors/location.svg' /></a>
         </div>
       </section>
-      <section className='section 2'>
-
+      <section className='section2'>
+        <span className='section1-heading'>State of The Art
+          Ecosystem for Creatives</span>
+        <span className='section1-description'> Be a part of an all-inclusive technology hub where you learn, collaborate with tech creatives and join a team of support systems offering you the top tools and frameworks to build solutions and earn big.</span>
       </section>
     </div>
   )
