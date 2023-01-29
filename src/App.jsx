@@ -6,7 +6,7 @@ import Button from './COMPONENTS/Button'
 function App() {
 
   return (
-    <div >
+    <div className='container'>
       <section className='section1'>
         <div className='wordings'>
 
@@ -33,7 +33,9 @@ function App() {
             Ecosystem for Creatives</span>
           <span className='section2-description'> Be a part of an all-inclusive technology hub where <br /> you learn, collaborate with tech creatives and join a <br /> team of support systems offering you the top tools <br /> and frameworks to build solutions and earn big.</span>
         </div>
-
+        <div className='section2-img-div'>
+          <img src="/public/images/cv-office.jpg" alt="" />
+        </div>
       </section>
     </div>
   )
