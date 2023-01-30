@@ -38,7 +38,7 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 7rem;
+  padding-top: 7rem;
 
 }
 
@@ -54,6 +54,7 @@ body {
 
 .section1 {
   display: flex;
+  padding-left: 7rem;
 }
 
 .wordings {
@@ -101,6 +102,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 8rem;
+  padding-left: 7rem;
 
 }
 
@@ -150,6 +152,8 @@ body {
 .section3 {
   background-color: #EFF2F6;
   padding-top: 5rem;
+  padding-left: 7rem;
+
 }
 
 .section3-wordings {
