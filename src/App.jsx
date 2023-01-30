@@ -1,6 +1,7 @@
 import React from 'react'
 import "./App.css"
-import Button from './COMPONENTS/Button'
+import Button from './Components/Button'
+import Courses from './COMPONENTS/Courses'
 
 
 function App() {
@@ -36,6 +37,28 @@ function App() {
         <div className='section2-img-div'>
           <img src="/public/images/cv-office.jpg" alt="" />
         </div>
+        <div className='courses-wrapper'>
+          <Courses
+            img={<img src='/public/vectors/bookmark-circle.svg' style={{ height: "3rem" }} />}
+            heading='Web & Mobile Development'
+            description={'We design and develop tech solutions for SMEs and Government Agency.'} />
+          <Courses
+            img={<img src='/public/vectors/tent-circle.svg' style={{ height: "3rem" }} />}
+            heading={'Bootcamps & Trainings'}
+            description={'We’re building the next generation of tech talents.'} />
+          <Courses
+            img={<img src='/public/vectors/workspace-circle.svg' style={{ height: "3rem" }} />}
+            heading={'Workspaces & Tech Hub'}
+            description={'Work and Connect with other Creatives. All in a fun and cozy environment.'}
+          />
+        </div>
+      </section>
+      <section className='section3'>
+        <div className='section3-wordings'></div>
+        <span className='advert'>Learn Web & Mobile <br /> Development. Access <br /> the global job market.</span>
+        <span className='advert-desc'>The world is constantly in need of technical talent supply pool. Tech is needed <br /> accross every sector. Your course of study doesn’t matter. All you need is the<br /> skill and experience.</span>
+        <div className='programs'></div>
+        <Button label={'Learn more'} />
       </section>
     </div>
   )

@@ -38,6 +38,8 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
+  padding: 7rem;
+
 }
 
 .logo {
@@ -52,7 +54,6 @@ body {
 
 .section1 {
   display: flex;
-  padding-left: 7em;
 }
 
 .wordings {
@@ -99,36 +100,80 @@ body {
   margin-top: 10rem;
   display: flex;
   flex-direction: column;
+  margin-bottom: 8rem;
+
 }
 
 .section2-wordings-div {
   display: flex;
   flex-direction: row;
+  /* padding-left: 7rem; */
+  margin-bottom: 5rem;
 }
 
-.section2-heading {
-  font-size: 6rem;
-  /* font-weight: ; */
-}
 
 .section2-heading {
   font-size: 1.5rem;
   color: var(--big-text);
-
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 600;
+  margin-right: 7rem;
 }
 
 .section2-description {
   color: var(--small-text);
-
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 
 .section2 img {
-  /* height: 100%; */
-  width: 100vw;
-  position: absolute;
-  align-self: center;
+  height: 26.25rem;
+  padding-bottom: 6rem;
+  /* width: fit-content; */
+  /* position: absolute; */
+  /* align-self: center; */
+  /* object-fit: fill; */
 }
 
 .section2-img-div {
-  /* width: 20rem; */
+  display: flex;
+  justify-content: center;
+}
+
+.courses-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section3 {
+  background-color: #EFF2F6;
+  padding-top: 5rem;
+}
+
+.section3-wordings {
+  display: flex;
+  flex-direction: column;
+}
+
+.advert {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #18214D;
+  line-height: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.advert-desc {
+  /* font-size: 5rem; */
+  font-weight: 600;
+  color: var(--small-text);
+  margin-bottom: 2rem;
+}
+
+.programs {
+  /* font-size: ; */
+  /* font-weight: ; */
+  /* color: #656B83; */
 }
