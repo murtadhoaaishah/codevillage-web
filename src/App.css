@@ -16,20 +16,6 @@
 
 }
 
-body {
-  /* max-width: 100%; */
-  /* height: max-content; */
-  /* padding-left: 10rem; */
-  /* overflow: hidden; */
-
-  /* align-items: flex-start; */
-  /* justify-content: flex-start; */
-  /* background-image: url("www.codevillage.org/images/hero_bg.png"); */
-  /* background-image: url(hero_bg.png); */
-  /* background-repeat: no-r÷epeat; */
-  /* background-position: center top; */
-  /* background-size: 50rem 20rem; */
-}
 
 .container {
   padding-top: 4rem;
@@ -38,7 +24,7 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding-top: 7rem;
+  /* padding-top: 7rem; */
 
 }
 
@@ -52,96 +38,9 @@ body {
 }
 
 
-.section1 {
-  display: flex;
-  padding-left: 7rem;
-}
-
-.wordings {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: start; */
-}
-
-.wordings-heading {
-  color: var(--big-text);
-  font-size: 5rem;
-  font-weight: 800;
-  line-height: 4.5rem;
-  margin-bottom: 3rem;
-}
-
-.wordings-description {
-  color: var(--small-text);
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 2rem;
-  margin-bottom: 3rem;
-}
-
-.wordings a {
-
-  margin-right: 3rem;
-
-}
-
-.wordings-footer img {
-  height: 2rem;
-
-}
-
-.bg-img img {
-  height: 55rem;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.section2 {
-  margin-top: 10rem;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 8rem;
-  padding-left: 7rem;
-
-}
-
-.section2-wordings-div {
-  display: flex;
-  flex-direction: row;
-  /* padding-left: 7rem; */
-  margin-bottom: 5rem;
-}
 
 
-.section2-heading {
-  font-size: 1.5rem;
-  color: var(--big-text);
-  font-size: 3rem;
-  line-height: 3rem;
-  font-weight: 600;
-  margin-right: 7rem;
-}
 
-.section2-description {
-  color: var(--small-text);
-  font-size: 1.25rem;
-  font-weight: 400;
-}
-
-.section2 img {
-  height: 26.25rem;
-  padding-bottom: 6rem;
-  /* width: fit-content; */
-  /* position: absolute; */
-  /* align-self: center; */
-  /* object-fit: fill; */
-}
-
-.section2-img-div {
-  display: flex;
-  justify-content: center;
-}
 
 .courses-wrapper {
   display: flex;
@@ -149,32 +48,7 @@ body {
   justify-content: space-between;
 }
 
-.section3 {
-  background-color: #EFF2F6;
-  padding-top: 5rem;
-  padding-left: 7rem;
 
-}
-
-.section3-wordings {
-  display: flex;
-  flex-direction: column;
-}
-
-.advert {
-  font-size: 4rem;
-  font-weight: 500;
-  color: #18214D;
-  line-height: 3.5rem;
-  margin-bottom: 2rem;
-}
-
-.advert-desc {
-  /* font-size: 5rem; */
-  font-weight: 600;
-  color: var(--small-text);
-  margin-bottom: 2rem;
-}
 
 .programs {
   /* font-size: ; */

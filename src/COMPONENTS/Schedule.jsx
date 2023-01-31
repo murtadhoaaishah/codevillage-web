@@ -30,7 +30,7 @@ const Schedule = ({ image, schedule_heading, schedule_desc }) => {
         <div style={wrapperStyle}>
             <div>{image}</div>
             <div>
-                <span>{schedule_heading,}</span>
+                <span>{schedule_heading}</span>
                 <span>{schedule_desc}</span>
             </div>
         </div>

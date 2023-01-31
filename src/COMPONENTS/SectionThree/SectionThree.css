@@ -1,0 +1,40 @@
+.section3 {
+    background-color: #EFF2F6;
+    padding-top: 5rem;
+    padding-left: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.section3-wordings {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #d1d5db;
+    padding-right: 5rem;
+}
+
+.advert {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #18214D;
+    width: 40rem;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.advert-desc {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--small-text);
+    width: 45rem;
+
+    margin-bottom: 2rem;
+
+}
+
+.programs {
+    display: flex;
+    flex-direction: column
+}

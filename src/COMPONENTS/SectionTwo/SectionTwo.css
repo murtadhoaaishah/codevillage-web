@@ -1,0 +1,42 @@
+.section2 {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+    padding-left: 7rem;
+
+}
+
+.section2-wordings-div {
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 7rem; */
+    margin-bottom: 5rem;
+}
+
+
+.section2-heading {
+    font-size: 1.5rem;
+    color: #18214D;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+    margin-right: 7rem;
+}
+
+.section2-description {
+    color: #656B83;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.section2 img {
+    height: 28rem;
+    padding-bottom: 6rem;
+
+}
+
+.section2-img-div {
+    display: flex;
+    justify-content: center;
+}
