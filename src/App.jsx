@@ -24,7 +24,7 @@ function App() {
           </div>
         </div>
         <div className='bg-img'>
-          <img src="/public/images/hero_bg (1).png" />
+          <img src="/images/hero_bg (1).png" />
         </div>
       </section>
 
